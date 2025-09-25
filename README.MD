@@ -6,7 +6,7 @@ This repository contains the PyTorch implementation for a preliminary exploratio
 
 | Dataset | Backbone | Crop Size | mIoU (single scale) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Cityscapes | Resnet101 | 512x1024 | 81.41 | [config](configs/deeplabv3plus/deeplabv3plus_r101-d8_4xb2-80k_cityscapes-512x1024_LHT.py) | [github](https://github.com/renzhenwang/LHT-Seg/releases/download/v1.0/20250831_112054.log) | [github](https://github.com/renzhenwang/LHT-Seg/releases/download/v1.0/iter_80000.pth) |
+| Cityscapes | Resnet101 | 512x1024 | 81.41 | [config](configs/deeplabv3plus/deeplabv3plus_r101-d8_4xb2-80k_cityscapes-512x1024_LHT.py) | [log_file](https://github.com/renzhenwang/LHT-Seg/releases/download/v1.0/20250831_112054.log) | [weights](https://github.com/renzhenwang/LHT-Seg/releases/download/v1.0/iter_80000.pth) |
 
 
 ## Usage

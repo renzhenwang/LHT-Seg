@@ -95,6 +95,6 @@ class LabelHierarchyTransitionLoss(nn.Module):
         uniform = T_final.new_full((C_high, C_fine), 1.0 / C_high)
         conf_reg = (T_final * (T_final.log() - uniform.log())).sum(dim=0).mean()
         
-        loss += 0.001 * conf_reg
+        loss += 0.0001 * conf_reg
 
         return self.loss_weight * loss
