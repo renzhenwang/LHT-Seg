@@ -33,10 +33,10 @@ mmsegmentation == 1.2.2
 ### Inference
 ```
 # single-gpu testing
-python tools/test.py <CONFIG_FILE> <SEG_CHECKPOINT_FILE> --eval mIoU
+python tools/test.py <CONFIG_FILE> <SEG_CHECKPOINT_FILE> 1
 
 # multi-gpu testing
-tools/dist_test.sh <CONFIG_FILE> <SEG_CHECKPOINT_FILE> <GPU_NUM> --eval mIoU
+tools/dist_test.sh <CONFIG_FILE> <SEG_CHECKPOINT_FILE> <GPU_NUM>
 ```
 
 For example, with configuration configs/deeplabv3plus/deeplabv3plus_r101-d8_4xb2-80k_cityscapes-512x1024_LHT.py and pretrained weights iter_80000.pth:
